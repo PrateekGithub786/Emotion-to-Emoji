@@ -61,13 +61,13 @@ function gotResult(error, results){
         }
 
         if(prediction2 == "happy"){
-            document.getElementById("update_emoji").innerHTML = "&#128522;";
+            document.getElementById("update_emoji2").innerHTML = "&#128522;";
         }
         if(prediction2 == "sad"){
-            document.getElementById("update_emoji").innerHTML = "&#128532;";
+            document.getElementById("update_emoji2").innerHTML = "&#128532;";
         }
         if(prediction2 == "angry"){
-            document.getElementById("update_emoji").innerHTML = "&#128548;";
+            document.getElementById("update_emoji2").innerHTML = "&#128548;";
         }
     }
 }
